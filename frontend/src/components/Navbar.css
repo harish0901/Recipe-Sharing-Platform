@@ -1,0 +1,73 @@
+/* Navbar Styles */
+.navbar {
+    background-color: rgb(40, 40, 40); /* Dark background for the navbar */
+    padding: 10px; /* Padding for spacing */
+    display: flex; /* Flexbox for layout */
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Space between items */
+}
+
+/* Search Bar */
+.form-control {
+    width: 85%; /* Adjusted width for the search bar */
+    background-color: rgb(60, 60, 60); /* Dark background for the input */
+    border: 1px solid #777; /* Lighter border for contrast */
+    color: white; /* White text for input */
+    padding: 8px; /* Padding for input */
+    border-radius: 5px; /* Rounded corners */
+}
+
+.search-bar-withicon {
+    position: relative; /* Positioning for the icon */
+}
+
+/* Search Button */
+.btn-btn-outline-dark-ms-2 {
+    width: 30px; /* Width for the search button */
+}
+
+.btn {
+    width: 35px; /* Width for the button */
+    height: 35px; /* Height for the button */
+    position: absolute; /* Absolute positioning */
+    right: 0%; /* Align to the right */
+    top: 50%; /* Center vertically */
+    transform: translateY(-50%); /* Adjust for centering */
+    display: flex; /* Flexbox for centering icon */
+    justify-content: center; /* Center icon horizontally */
+    align-items: center; /* Center icon vertically */
+    background-color: rgb(60, 60, 60); /* Dark background for button */
+    border: none; /* No border */
+    color: white; /* White icon color */
+    cursor: pointer; /* Pointer cursor on hover */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.btn:hover {
+    background-color: rgb(80, 80, 80); /* Lighter shade on hover */
+}
+
+/* Search Icon */
+.search {
+    width: 30px; /* Width for the search icon */
+    height: 35px; /* Height for the search icon */
+}
+
+/* Logout Button */
+.logout {
+    width: 80px; /* Width for the logout button */
+    margin-right: 20px; /* Right margin */
+    margin-bottom: 10px; /* Bottom margin */
+    height: 40px; /* Height for the logout button */
+    background-color: rgb(255, 255, 255); /* Dark background for logout button */
+    color: white; /* White text for logout button */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition for hover */
+}
+
+.logout:hover {
+    background-color: rgb(255, 255, 255); /* Lighter shade on hover */
+}
