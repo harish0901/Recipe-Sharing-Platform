@@ -47,6 +47,80 @@ The project is built using the **MERN stack** and focuses on creating a simple a
 Add screenshots of your application here.
 
 ---
+📂 Project Structure
+Recipe-Sharing-Platform/
+│
+├── frontend/
+│   ├── src/
+│   └── package.json
+│
+├── backend/
+│   ├── routes/
+│   ├── controllers/
+│   └── package.json
+│
+├── README.md
+└── ...
+⚙️ Installation
+1. Clone the repository
+git clone https://github.com/harish0901/Recipe-Sharing-Platform.git
+2. Navigate to the project
+cd Recipe-Sharing-Platform
+3. Install frontend dependencies
+cd frontend
+npm install
+4. Install backend dependencies
+cd ../backend
+npm install
+▶️ Running the Application
+
+Start the backend:
+
+npm start
+
+Start the frontend in another terminal:
+
+npm start
+🔐 Environment Variables
+
+Create a .env file for sensitive configuration such as:
+
+MONGODB_URI=your_mongodb_connection_string
+PORT=your_port
+
+Never commit your actual .env file or database credentials to GitHub.
+
+🔮 Future Improvements
+⭐ Recipe ratings and reviews
+❤️ Favorite recipes
+🔎 Advanced recipe search
+🏷️ Recipe categories
+📱 Improved mobile experience
+☁️ Cloud deployment
+👨‍💻 Author
+
+Harish
+
+Computer Science Developer | AI & Web Development Enthusiast
+
+⭐ If you like this project, consider giving it a star!
+
+
+---
+
+# ⚠️ Important before you commit
+
+There's one thing I **don't want you to blindly assume**.
+
+Your actual repository structure might be different from:
+
+```text
+frontend/
+backend/
+
+and your actual commands might not be:
+
+npm start
 
 ## 🏗️ Project Architecture
 
